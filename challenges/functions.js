@@ -37,7 +37,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: The variable 'internal' is first defined in the local scope of myFunction. After that, the code has a nested function that logs 'internal.' We then have a closure that gives 'nestedfunction()' access to 'internal' because it is able to reach outside its scope as a closure.
+// Explanation: The variable 'internal' is first defined in the local scope of myFunction. After that, the code has a nested function that logs 'internal.' We then have a closure that gives 'nestedfunction()' access to 'internal' because it is able to reach outside its scope chain to the outer scope as a closure.
 
 
 const external = "I'm outside the function";
