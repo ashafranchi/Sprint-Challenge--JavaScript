@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-The biggest difference is that '.forEach' changes the current array, '.map' returns a new array of elements.
+The biggest difference is that '.forEach' cycles through the current array and allows us to work with all of the elements in the array either console.log-ing them or pushing them into a new array, while '.map' returns a new array of elements.
 
 2. What is the difference between a function and a method?
 
